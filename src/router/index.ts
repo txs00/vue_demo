@@ -27,6 +27,12 @@ const router = createRouter({
           component: () => import('../views/AboutView.vue'),
           meta: { title: "列表" },
 
+        },
+        {
+          path: '/home/map',
+          name: 'home-map',
+          component: () => import('../views/MapView.vue'),
+          meta: { title: "地图" },
         }
       ]
 

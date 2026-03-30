@@ -20,6 +20,11 @@
             <!-- <el-icon><setting /></el-icon> -->
             <template #title>列表</template>
           </el-menu-item>
+          <el-menu-item index="/home/map">
+            <el-icon><List /></el-icon>
+            <!-- <el-icon><setting /></el-icon> -->
+            <template #title>地图</template>
+          </el-menu-item>
         </el-menu>
       </el-aside>
       <el-container>
